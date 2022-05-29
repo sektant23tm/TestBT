@@ -1,0 +1,33 @@
+﻿<Window x:Class="TestBT.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestBT"
+        mc:Ignorable="d"
+        Title="Кнопочки" Height="80" Width="600">
+    
+    <UniformGrid Rows="1" Margin="10">
+        
+        <Button Content="Кнопка #1"
+                Margin="4"
+                Style="{StaticResource ClearProgramPathButtonStyle}"/>
+        
+        <Button Content="Кнопка #2"
+                Margin="4"
+                Style="{StaticResource GeneralIncomeRCButtonStyle}"/>
+        
+        <Button Content="Кнопка #3"
+                Margin="4"
+                Style="{StaticResource WLButtonStyle}"/>
+        
+        <Button Content="Кнопка #4"
+                Margin="4"
+                Style="{StaticResource ExecuteScriptHitrostyButtonStyle}"/>
+
+        <Button Content="Кнопка #5"
+                Margin="4"
+                Style="{StaticResource StartProgramButtonStyle}"/>
+    </UniformGrid>
+    
+</Window>
